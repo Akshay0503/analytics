@@ -8,3 +8,8 @@
 (married=sample(c('TRUE','FALSE'),size=30,replace=T,prob=c(.5,.5)))
 df1=data.frame(rollno,sname,gender,age,course,marks,married)
 df1
+
+
+#export to csv
+write.csv(df1,'./data/pumba.csv', row.names=F)
+
