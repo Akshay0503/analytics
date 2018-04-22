@@ -60,3 +60,12 @@ gradesF1=factor(grades, ordered=T)
 gradesF1
 gradesF2=factor(grades,ordered=T, levels=c('D','C','B','A'))
 gradesF2
+#data  frame
+rollno= 1:3
+sname= c('s1','s2','s3')
+df= data.frame(rollno,sname)
+df
+#str dim class summary
+str(df)
+df$rollno
+df$sname
