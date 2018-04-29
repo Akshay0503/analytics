@@ -18,7 +18,7 @@ summary(Mer_Sales)
 names(Mer_Sales)
 # Look at the average Annual_Sales() wrt to  few columns
 names(Mer_Sales)
-aggregate(x=Mer_Sales$Annual_Sales,by=list(Mer_Sales[,4]),FUN=mean)  # mean sales per zone
+aggregate(x=Mer_Sales$Annual_Sales,by=list(Mer_Sales[,12]),FUN=mean)  # mean sales per zone
 
 
 # Make a copy of the Original Dataset

@@ -82,3 +82,4 @@ marks = rnorm(3, 50,10)
 df = data.frame(genderF, gradesF, marks)
 df
 str(df)
+
